@@ -1,0 +1,147 @@
+:root{
+    --myBlue: #385185;
+    --boxShadow: 5px 5px 5px rgba(199, 192, 192, 0.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 80vh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #1877f2;
+    cursor: pointer;
+}
+
+main{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left : 300px;
+    margin-top: 115px;
+}
+
+
+main .myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    gap: 10px;
+}
+
+main .myForm form{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 20px;
+    gap: 20px;
+    border: 0.1px rgb(156, 152, 152) solid;
+    box-shadow: var(--boxShadow);
+}
+
+main .myForm form input{
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    background-color: #fafafa;
+    border: 1px grey solid;
+    border-radius: 5px;
+    gap: 2px;
+    padding: 9px;
+    margin: -7px;
+}
+
+main .myForm form input::placeholder{
+    padding: 5px;
+    opacity: var(--boxShadow);
+}
+
+main .myForm form button{
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+main .myForm form .logIn{
+    font-size: 15px;
+    color: #385185;
+    text-decoration: none;
+}
+main .myForm form .forgot{
+    font-size: 0.8em;
+    color: #385185;
+    text-decoration: none;
+}
+
+
+main .signUp{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.signUp {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 20px;
+    gap: 20px;
+    border: 0.1px rgb(156, 152, 152) solid;
+    box-shadow: var(--boxShadow);
+}
+.signUp a{
+    color: #1877f2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main .images{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.img{
+    display: inline;
+    align-items: stretch;
+}
